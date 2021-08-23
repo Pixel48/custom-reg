@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+; Directory
+[HKEY_CLASSES_ROOT\Directory\shell\git_shell]
+@="Git Bash Her&e"
+Icon="C:\Program Files\Git\git-bash.exe"
+[HKEY_CLASSES_ROOT\Directory\shell\git_shell\command]
+@="C:\Program Files\Git\git-bash.exe" "--cd=%v."
+; Background
+[HKEY_CLASSES_ROOT\Directory\Background\shell\git_shell]
+@="Git Bash Her&e"
+Icon="C:\Program Files\Git\git-bash.exe"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\git_shell\command]
+@="C:\Program Files\Git\git-bash.exe" "--cd=%v."
